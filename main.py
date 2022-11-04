@@ -24,7 +24,7 @@ def interceptor(update, context):
 
 
 def main():
-    updater = Updater(names.my_bot)
+    updater = Updater(names.bot)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))

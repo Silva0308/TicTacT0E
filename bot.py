@@ -25,7 +25,7 @@ def draw_board(update, context):
 
 def start_game(update, context):
     global BOARD
-    update.message.reply_text('Отсюда начнется игра:')
+    update.message.reply_text('Начинаем игру:')
     draw_board(update, context)
     update.message.reply_text(f"Куда поставим ❌?")
     return "CHOOSING_X"
